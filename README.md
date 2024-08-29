@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Peifang Luo</h1>
 <h3 align="center">A passionate software engineer from China, living in Budapest</h3>
  
-- 🌱 I’m currently in CFG degree and doing learning FE developement myself.
+- 🌱 I’m currently in CFG degree and learning FE developement myself.
 
 - 👨‍💻 All of my projects are available at [https://github.com/117Isabell](https://github.com/117Isabell)
 
