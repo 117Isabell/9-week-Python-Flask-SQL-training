@@ -7,6 +7,9 @@
 
 - 📫 How to reach me **lpfisabell@gmail.com**
 
+<h3 align="left">What is this repo for:</h3>
+<p align="left">All the assigments for CFGdegree 2024</p>
+
 <h3 align="left">Let's connect:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/peifang-luo-dev/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="peifang(isabell) luo" height="30" width="40" /></a>
