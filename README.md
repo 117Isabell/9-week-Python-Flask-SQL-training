@@ -40,20 +40,22 @@ Steps:
 8. Repeat from step 3 until you're complete (you'll look at when to move onto a new branch, and what they are in more detail, later)
 
 <p align="left">Session 4--Create and switch branches, push local changes and create pull requests:</p>
+
 1. Make a repo on GitHub (including the readme file option and make sure it's private).
 2. Clone that repo locally:
    ```bash
    git clone https://github.com/username/repo.git
    ```
 3. Make a branch:
-```bash
- git switch name-of-branch
-```
+
+````bash
+git switch name-of-branch
+``
 
 4. Make the changes locally:
 
 ```bash
- git add .
- git commit -m "description of the changes you made!"
- git push
-```
+git add .
+git commit -m "description of the changes you made!"
+git push
+````
