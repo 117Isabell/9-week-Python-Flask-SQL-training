@@ -47,15 +47,12 @@ Steps:
    git clone https://github.com/username/repo.git
    ```
 3. Make a branch:
-
-````bash
-git switch name-of-branch
-``
-
+   ```bash
+   git switch name-of-branch
+   ```
 4. Make the changes locally:
-
-```bash
-git add .
-git commit -m "description of the changes you made!"
-git push
-````
+   ```bash
+   git add .
+   git commit -m "description of the changes you made!"
+   git push
+   ```
