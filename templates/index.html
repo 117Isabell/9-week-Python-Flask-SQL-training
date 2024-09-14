@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale-1" />
     <title>Pokémon Land</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/x-icon">
 </head>
 <body>
-<main class="center">
+<main class ="center">
     <!-- Form to enter Pokémon number -->
         <form action="/pokemon" method="POST"  class="form-container">
             <input class="pokemon-input" name="pokemon" type="number" placeholder="Enter a Pokémon number between 1-1025" min="1" max="1025" required />
             <button type="submit" class="submit_button">Get Pokémon Info</button>
         </form>
 
-    <!-- Section to display Pokémon info -->
+    <!-- Section to display the key Pokémon info -->
         {% if name %}
             <div id="pokemonInfo" class="info-container">
                 <h1>Name: {{ name }}</h1>
@@ -22,9 +23,9 @@
                 <h2>Weight: {{ weight }} kg</h2>
                 <img src="{{ image }}" alt="Pokémon image" class="pokemon_image">
 
-            </div>
         {% elif error %}
         {% endif %}
+        </div>
 </main>
 </body>
 </html>

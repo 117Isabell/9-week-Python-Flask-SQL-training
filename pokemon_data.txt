@@ -1,0 +1,5 @@
+Name: muk
+Height: 1.2 m
+Weight: 30.0 kg
+Moves: pound, fire-punch, ice-punch, thunder-punch, headbutt
+Image: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png
