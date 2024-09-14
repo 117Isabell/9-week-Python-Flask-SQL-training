@@ -10,10 +10,10 @@ def index():
 
 @app.route('/pokemon', methods=['POST'])
 def get_pokemon():
-    pokemon = request.form['pokemon']
+    pokemon_number = request.form['pokemon']
 
     # API request
-    endpoint = f'https://pokeapi.co/api/v2/pokemon/{pokemon}/'
+    endpoint = f'https://pokeapi.co/api/v2/pokemon/{pokemon_number}/'
     response = requests.get(endpoint)
 
     # Accessing necessary data
@@ -46,7 +46,7 @@ def get_pokemon():
             f.write(formatted_data)
 
         # Render the key data on the landing page
-        return render_template('index.html', name=name, height=height, weight=weight, image=image)
+        return render_template('index.html', name=name, height=height, weight=weight, image=image, pokemon_number=pokemon_number)
 
 
 if __name__ == '__main__':

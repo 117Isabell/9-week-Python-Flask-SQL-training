@@ -1,5 +1,5 @@
-Name: muk
-Height: 1.2 m
-Weight: 30.0 kg
-Moves: pound, fire-punch, ice-punch, thunder-punch, headbutt
-Image: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png
+Name: shellder
+Height: 0.3 m
+Weight: 4.0 kg
+Moves: headbutt, tackle, take-down, double-edge, twineedle
+Image: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png

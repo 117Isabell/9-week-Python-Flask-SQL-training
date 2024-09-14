@@ -16,16 +16,13 @@
         </form>
 
     <!-- Section to display the key Pokémon info -->
-        {% if name %}
             <div id="pokemonInfo" class="info-container">
                 <h1>Name: {{ name }}</h1>
                 <h2>Height: {{ height }} m</h2>
                 <h2>Weight: {{ weight }} kg</h2>
                 <img src="{{ image }}" alt="Pokémon image" class="pokemon_image">
-
-        {% elif error %}
-        {% endif %}
-        </div>
+                <p>The number you input is {{ pokemon_number }}</p>
+            </div>
 </main>
 </body>
 </html>
