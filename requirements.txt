@@ -3,3 +3,5 @@
 # “pip requirements.txt files”, since requirements.txt is usually what
 # these files are named (although, that is not a requirement).
 
+Flask==3.0.3
+requests==2.32.3

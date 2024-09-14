@@ -1,5 +1,5 @@
-Name: shellder
-Height: 0.3 m
-Weight: 4.0 kg
-Moves: headbutt, tackle, take-down, double-edge, twineedle
-Image: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png
+Name: diglett
+Height: 0.2 m
+Weight: 0.8 kg
+Moves: scratch, swords-dance, cut, sand-attack, headbutt
+Image: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png

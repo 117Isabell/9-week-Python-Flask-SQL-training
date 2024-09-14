@@ -6,7 +6,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    # Default values to show before any user input
+    default_pokemon = {
+        'name': 'bulbasaur',
+        'height': 0.7,
+        'weight': 6.9,
+        'image': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png',
+        'pokemon_number': 1
+    }
+    return render_template('index.html', **default_pokemon)
 
 @app.route('/pokemon', methods=['POST'])
 def get_pokemon():
@@ -38,11 +46,11 @@ def get_pokemon():
                           f"Image: {image}\n"
                           )
         # Write the Pokémon data to a json file
-        with open('pokemon_data.json', 'w') as f:
+        with open('pokemon_data.json', 'w+') as f:
             json.dump(data, f, indent=4)
 
         # Write the key Pokémon data to a text file
-        with open('pokemon_data.txt', 'w') as f:
+        with open('pokemon_data.txt', 'w+') as f:
             f.write(formatted_data)
 
         # Render the key data on the landing page
