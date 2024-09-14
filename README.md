@@ -47,6 +47,11 @@ Check out the demo video: [Watch on YouTube](https://youtu.be/3kUayEoKSg4)
 1. My old Pokemon API project in JS: https://github.com/117Isabell/pokedex_projects
 2. This Python flask tutorial: https://www.youtube.com/watch?v=dam0GPOAvVI
 
+<h4>Extra info about Flask</h4>
+<p>Flask is a micro web framework written in Python. <br>
+For more details, please go to: https://flask.palletsprojects.com/en/3.0.x/# 
+</p>
+
 <br><br>
 
 <h1 align="left">Week One:</h1>
