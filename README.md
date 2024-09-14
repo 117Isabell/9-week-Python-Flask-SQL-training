@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Peifang Luo</h1>
-<h3 align="left">A passionate software engineer from China, living in Budapest</h3>
+<h2 align="left">A passionate software engineer from China, living in Budapest</h2>
  
 - 🌱 I’m currently in CFG degree and learning FE development myself.
 
@@ -7,12 +7,12 @@
 
 - 📫 How to reach me **lpfisabell@gmail.com**
 
-<h3 align="left"> What is this repo for:</h3>
+<h2 align="left"> What is this repo for:</h2>
 <p align="left">All the assigments for CFGdegree 2024 autumn </p>
 
 <br><br>
 
-<h2 align="left">Week Two & Week Three:</h2>
+<h1 align="left">Week Two & Week Three:</h1>
 
 # Pokémon API Project Preview
 
@@ -22,16 +22,20 @@ This is a Flask application that interacts with the Pokémon API to fetch and di
 
 ![Project Screenshot](preview.png)
 
+# A video demon of the project
+Check out the demo video: [Watch on YouTube](https://youtu.be/3kUayEoKSg4)
+
+
 # Run on Your Local Machine
 
 1. Clone that repo locally:
    ```bash
    git clone https://github.com/117Isabell/CFG-Assignments.git
    ```
-2. Open the Project in PyCharm
+2. Open the project in PyCharm
 3. Install Dependencies
-4. Navigate to the Root Directory
-5. Run the Project locally:
+4. Navigate to the root Directory
+5. Run the project locally:
    ```bash
    python3 pokemon.py
    ```
@@ -39,9 +43,13 @@ This is a Flask application that interacts with the Pokémon API to fetch and di
    <p>Once the server is running, open your web browser and navigate to the local link provided in the terminal (usually http://127.0.0.1:5000).
 </p>
 
+<h4>Inspirations</h4>
+1. My old Pokemon API project in JS: https://github.com/117Isabell/pokedex_projects
+2. This Python flask tutorial: https://www.youtube.com/watch?v=dam0GPOAvVI
+
 <br><br>
 
-<h2 align="left">Week One:</h2>
+<h1 align="left">Week One:</h1>
 
 <p align="left">Session 3--Clone a repo and connect remote and local repo:</p>
 
