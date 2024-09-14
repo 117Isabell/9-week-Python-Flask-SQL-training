@@ -1,0 +1,43 @@
+/* Center content in the middle of the page */
+.center {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+/* Form styling */
+.form-container {
+    max-width: 330px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background */
+
+}
+
+/* Input styling */
+.pokemon-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+ .submit_button {
+    width: auto;
+    text-align:start;
+    font-size:20px;
+ }
+.submit_button:hover {
+    background-color: red;
+}
+
+.pokemon_image {
+    width: 100%;
+    height: auto;
+}
