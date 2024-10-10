@@ -14,36 +14,36 @@ def get_dramas():
     return jsonify(dramas)
 
 # Search for drama by name
-@app.route('/dramas/<drama_name>', methods=['GET'])
-def get_drama(drama_name):
-    drama = search_dramas(drama_name, dramas)
-    if drama:
-        return jsonify(drama)
-    else:
-        return jsonify({"error": "Drama not found"}), 404
+# @app.route('/dramas/<drama_name>', methods=['GET'])
+# def get_drama(drama_name):
+#     drama = search_dramas(drama_name, dramas)
+#     if drama:
+#         return jsonify(drama)
+#     else:
+#         return jsonify({"error": "Drama not found"}), 404
 
 
 # Add new dramas
-@app.route('/dramas', methods=['POST'])
-def add_drama():
-    drama = request.get_json()
-    dramas.append(drama)
-    return drama
+# @app.route('/dramas', methods=['POST'])
+# def add_drama():
+#     drama = request.get_json()
+#     dramas.append(drama)
+#     return drama
 
 # Update new dramas
-@app.route('/dramas/<drama_name>', methods=['PUT'])
-def update_drama(drama_name):
-    drama_to_update = request.get_json()
-    index = get_drama_name(drama_name, dramas)
-    dramas[index] = drama_to_update
-    return jsonify(dramas[index])
+# @app.route('/dramas/<drama_name>', methods=['PUT'])
+# def update_drama(drama_name):
+#     drama_to_update = request.get_json()
+#     index = get_drama_name(drama_name, dramas)
+#     dramas[index] = drama_to_update
+#     return jsonify(dramas[index])
 
 # Delete a drama
-@app.route('/dramas/<drama_name>', methods=['DELETE'])
-def delete_drama(drama_name):
-    index = get_drama_name(drama_name, dramas)
-    deleted = dramas.pop(index)
-    return jsonify(deleted)
+# @app.route('/dramas/<drama_name>', methods=['DELETE'])
+# def delete_drama(drama_name):
+#     index = get_drama_name(drama_name, dramas)
+#     deleted = dramas.pop(index)
+#     return jsonify(deleted)
 
 
 

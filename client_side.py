@@ -31,10 +31,10 @@ import  json
 
 
 # DELETE REQUEST
-drama_name = 'Start-up'
-
-headers = {'content-type': 'application/json'}
-result = requests.delete(
-    'http://127.0.0.1:5000/dramas/{}'.format(drama_name), headers=headers
-)
-print(result)
+# drama_name = 'Start-up'
+#
+# headers = {'content-type': 'application/json'}
+# result = requests.delete(
+#     'http://127.0.0.1:5000/dramas/{}'.format(drama_name), headers=headers
+# )
+# print(result)
