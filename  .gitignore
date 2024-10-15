@@ -3,7 +3,7 @@
 
 # Ignore log files
 *.log
-config.py
+db_config.py
 
 # Ignore temporary files created by editors
 *.swp
