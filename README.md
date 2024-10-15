@@ -12,7 +12,10 @@
 
 <br><br>
 
-<h1 align="left">Week Two & Week Three:</h1>
+<h1 align="left">Assignment Three: SQL:</h1>
+
+
+<h1 align="left">Week Two & Week Three Assignment Two:</h1>
 
 # Pokémon API Project Preview
 
@@ -44,7 +47,7 @@ Check out the demo video: [Watch on YouTube](https://youtu.be/3kUayEoKSg4)
 </p>
 
 <h4>Inspirations</h4>
-1. My old Pokemon API project in JS: https://github.com/117Isabell/pokedex_projects
+1. My old Pokemon API project in JS: https://github.com/117Isabell/pokedex_projects 
 2. This Python flask tutorial: https://www.youtube.com/watch?v=dam0GPOAvVI
 
 <h4>Extra info about Flask</h4>
