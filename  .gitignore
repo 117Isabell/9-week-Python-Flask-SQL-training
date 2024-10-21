@@ -3,6 +3,8 @@
 
 # Ignore log files
 *.log
+
+# Ignore database configuration file
 db_config.py
 
 # Ignore temporary files created by editors
