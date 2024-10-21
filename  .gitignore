@@ -7,6 +7,18 @@
 # Ignore database configuration file
 db_config.py
 
+# Note: If this file is still being pushed to GitHub, it might be because:
+# 1. The file was already tracked before adding it to .gitignore
+# 2. The .gitignore file itself hasn't been committed and pushed
+# 3. There might be caching issues with Git
+
+# To fix this:
+# 1. Remove the file from Git tracking: git rm --cached db_config.py
+# 2. Commit the changes: git commit -m "Remove db_config.py from tracking"
+# 3. Push the changes: git push
+# 4. Ensure .gitignore is committed and pushed
+# 5. If issues persist, try clearing Git cache: git rm -r --cached .
+
 # Ignore temporary files created by editors
 *.swp
 .vscode/
