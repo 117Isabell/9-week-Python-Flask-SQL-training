@@ -1,5 +1,5 @@
 # What is this repo for:
-<p align="left">All the assignments for the 9-week training </p>
+<p align="left">All the assignments for the 9-week training for Python, Flask and SQL</p>
 
 
 # Assignment Four: K-Dramas Management API
