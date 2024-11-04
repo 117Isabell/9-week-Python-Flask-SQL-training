@@ -1,4 +1,4 @@
-# What is this repo for:
+## What is this repo for:
 <p align="left">All the assignments for the 9-week training </p>
 
 
@@ -192,15 +192,12 @@ You should now have a K-Dramas Management API set up and ready to use. Have fun!
    
 <br><br>
 # Assignment Three
-## A video demon of the project
+## A video demon of the project-Play with Pokemon API to fetch some Poké data, like names and heights
 Check out the demo video: [Watch on YouTube](https://youtu.be/3kUayEoKSg4)
 
-## Run on Your Local Machine
+## Run on Your Local Machine 
 
 1. Clone that repo locally:
-   ```bash
-   git clone https://github.com/117Isabell/CFG-Assignments.git
-   ```
 2. Open the project in PyCharm
 3. Install Dependencies
 4. Navigate to the root Directory
@@ -224,7 +221,7 @@ For more details, please go to: https://flask.palletsprojects.com/en/3.0.x/#
 
 <br><br>
 
-## Week Two & Week Three Assignment Two
+## Assignment Two
 
 <h1 align="left">Week One Notes:</h1>
 
@@ -250,9 +247,6 @@ Steps:
 
 1. Make a repo on GitHub (including the readme file option and make sure it's private).
 2. Clone that repo locally:
-   ```bash
-   git clone https://github.com/username/repo.git
-   ```
 3. Make a branch:
    ```bash
    git switch name-of-branch
