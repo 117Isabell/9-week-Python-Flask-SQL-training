@@ -6,6 +6,11 @@
 
 ## Requirements
 
+1. Clone that repo locally:
+2. Open the project in PyCharm
+3. Install Dependencies
+4. Navigate to the 'assignment-4-API-building' Directory
+
 Before running the API, ensure you have the following installed:
 
 - Python 3.x
@@ -197,13 +202,13 @@ Check out the demo video: [Watch on YouTube](https://youtu.be/3kUayEoKSg4)
 
 ## Run on Your Local Machine 
 
-1. Clone that repo locally:
+1. Clone that repo locally and navigate to the 'assignment-3-sql-db' directory
 2. Open the project in PyCharm
 3. Install Dependencies
 4. Navigate to the root Directory
 5. Run the project locally:
    ```bash
-   python3 pokemon.py
+   python3 Pokemon.py
    ```
 6. Open in a Browser:
    <p>Once the server is running, open your web browser and navigate to the local link provided in the terminal (usually http://127.0.0.1:5000).
