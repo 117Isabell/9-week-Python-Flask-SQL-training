@@ -1,16 +1,5 @@
-<h1 align="center">Hi 👋, I'm Peifang Luo</h1>
-<h2 align="left">A passionate software engineer from China, living in Budapest</h2>
- 
-- 🌱 I’m currently in CFG degree and learning FE development myself.
-
-- 👨‍💻 All of my projects are available at [https://github.com/117Isabell](https://github.com/117Isabell)
-
-- 📫 How to reach me **lpfisabell@gmail.com**
-
-<h2 align="left"> What is this repo for:</h2>
-<p align="left">All the assignments for CFGdegree 2024 autumn </p>
-
-
+# What is this repo for:
+<p align="left">All the assignments for the 9-week training </p>
 
 
 # Assignment Four: K-Dramas Management API
