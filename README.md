@@ -1,4 +1,4 @@
-## What is this repo for:
+# What is this repo for:
 <p align="left">All the assignments for the 9-week training </p>
 
 
