@@ -4,6 +4,7 @@
 
 # Assignment Four: K-Dramas Management API
 
+![The db interaction preview](assignment-4-API-building/db-interaction-preview.webp)
 ## Requirements
 
 1. Clone that repo locally:
