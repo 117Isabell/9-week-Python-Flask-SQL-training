@@ -199,10 +199,11 @@ You should now have a K-Dramas Management API set up and ready to use. Have fun!
 # Assignment Three
 ## A video demon of the project-Play with Pokemon API to fetch some Poké data, like names and heights
 Check out the demo video: [Watch on YouTube](https://youtu.be/3kUayEoKSg4)
+![The UI](assignment-2-fecthing-api/preview.png)
 
 ## Run on Your Local Machine 
 
-1. Clone that repo locally and navigate to the 'assignment-3-sql-db' directory
+1. Clone that repo locally and navigate to the 'assignment-3-fecthing-api' directory
 2. Open the project in PyCharm
 3. Install Dependencies
 4. Navigate to the root Directory
@@ -225,8 +226,11 @@ For more details, please go to: https://flask.palletsprojects.com/en/3.0.x/#
 
 
 <br><br>
-
 ## Assignment Two
+1. Clone that repo locally and navigate to the 'assignment-2-sql-db' directory to check out the course schema.
+
+<br><br>
+## Assignment One
 
 <h1 align="left">Week One Notes:</h1>
 

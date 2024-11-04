@@ -1,5 +1,5 @@
 
---I will create a database for CFG degree courses to store student’ information, attendance, and assignment grades starting with designing an EER diagram. The database will consist of three main tables:
+--I will create a database for this training bootcamp to store student’ information, attendance, and assignment grades starting with designing an EER diagram. The database will consist of three main tables:
 --A Students Table– Stores basic student information including `student_id`, `last_name`, `first_name`, the CFG degree stream (linked to a course), and their sponsoring company.
 --An Attendance Table– Tracks attendance for students across 10 classes, with fields for `student_id`, attendance status for each class, and the final attendance rate.
 --A Grades Table – Stores the grades of students for their assignments and team project, with fields for `student_id`, four assignment grades, and a team project grade.
@@ -9,8 +9,8 @@
 
 -- Part1
 -- Create the database
--- CREATE DATABASE cfg_degree_training;
--- USE cfg_degree_training;
+-- CREATE DATABASE python_training;
+-- USE python_training;
 
 
 -- Part2 create 3 tables
